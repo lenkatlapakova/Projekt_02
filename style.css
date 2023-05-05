@@ -1,0 +1,144 @@
+/* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
+/* toto je černá magie, na kterou nešahej! */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/*
+BARVY
+czechitas                 #b92e81
+šedé pozadí stránky       #bdc3c7
+tmavé pozadí pod textem   #31363b
+dělítka mezi tlačítky     #3f464d
+tlačítko portfolio        #e74c3c
+tlačítko facebook         #3b5998
+tlačítko twitter          #1da1f2
+*/
+@font-face {
+  font-family: 'SourceSansPro-Light';
+  src: url('SourceSansPro-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Regular.woff2') format('woff2'),
+  
+}
+
+body {
+  background-color: #bdc3c7;
+  }
+
+
+.profil{
+  width:400px;
+  background-color: #31363b;
+  box-shadow: 2px 5px 10px rgb(0, 0, 0);
+}
+
+.hlavicka{
+  width: auto;
+
+}
+
+
+.foto{
+  width:100%;
+  position:relative;
+}
+
+.logo{
+  background-color: #b92e81;
+  border-radius: 50%;
+  box-shadow:2px 5px 10px rgb(0, 0, 0);
+  position: relative;
+  margin-right: 0;
+  z-index: 0;
+  display:block;
+  top:-20px;
+  left: 80%;
+}
+
+.jmeno {
+  color:whitesmoke;
+  margin: 20px;
+
+}
+
+
+p{
+  color:whitesmoke;
+  margin:20px
+}
+
+
+ 
+
+ul li{
+  display: inline-block;
+  text-align: center;
+  border: 1px solid#bdc3c7;
+  padding:20px;
+  
+}
+
+
+a {
+  color: white;
+  font-family: 'Montserrat','Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color:whitesmoke;
+  font-family:'Montserrat', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li:nth-child(1):hover {
+  background-color: #e74c3c;
+}
+
+ul li:nth-child(2):hover {
+  background-color: #3b5998;
+}
+
+ul li:nth-child(3):hover {
+  background-color: #1da1f2;
+}
+
+
+.odkazy{
+  padding-inline-start: 0px;
+  
+}
+
+
+.portfolio {
+  width:100%;
+}
+
+.facebook{
+  width: 50%;
+}
+
+.twitter{
+  width: 50%;
+}
+
+
+.jmeno{
+  font-family:'Montserrat', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+  font-family: 'SourceSansPro-Light', sans-serif;
+}
+
+.odkazy{
+  
+    font-family:'Montserrat', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+
